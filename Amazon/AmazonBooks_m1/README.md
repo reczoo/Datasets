@@ -1,10 +1,20 @@
 # AmazonBooks_m1
 
++ **Dataset description:**
+
+  The data statistics are summarized as follows:
+
+  | Dataset ID     | #Users | #Items | #Interactions |   #Train  |  #Test  | Density |
+  |:--------------:|:------:|:------:|:-------------:|:---------:|:-------:|:-------:|
+  | AmazonBooks_m1 | 52,643 | 91,599 |   2,984,108   | 2,380,730 | 603,378 | 0.00062 |
+
+
 + **Data format:**  
 user_id item1 item2 ...
 
++ **Source:** https://cseweb.ucsd.edu/~jmcauley/datasets.html
 + **Download:** https://huggingface.co/datasets/reczoo/AmazonBooks_m1/tree/main
-+ **Repository:** https://github.com/reczoo/Datasets
++ **RecZoo Datasets:** https://github.com/reczoo/Datasets
 
 + **Used by papers:** 
     - Xiangnan He, Kuan Deng, Xiang Wang, Yan Li, Yongdong Zhang, Meng Wang. [LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation](https://arxiv.org/abs/2002.02126). In SIGIR 2020.

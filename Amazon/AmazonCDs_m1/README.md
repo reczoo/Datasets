@@ -3,8 +3,9 @@
 + **Data format:**  
 user_id item1 item2 ...
 
++ **Source:** https://cseweb.ucsd.edu/~jmcauley/datasets.html
 + **Download:** https://huggingface.co/datasets/reczoo/AmazonCDs_m1/tree/main
-+ **Repository:** https://github.com/reczoo/Datasets
++ **RecZoo Datasets:** https://github.com/reczoo/Datasets
 
 + **Used by papers:** 
     - Jianing Sun, Wei Guo, Dengcheng Zhang, Yingxue Zhang, Florence Regol, Yaochen Hu, Huifeng Guo, Ruiming Tang, Han Yuan, Xiuqiang He, Mark Coates. [A Framework for Recommending Accurate and Diverse Items Using Bayesian Graph Convolutional Neural Networks](https://hyclex.github.io/papers/paper_sun2019BGCN.pdf). In KDD 2020.

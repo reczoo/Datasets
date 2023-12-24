@@ -1,10 +1,10 @@
-# AmazonBeauty_m1
+# AmazonMovies_m1
 
 + **Data format:**  
 user_id item1 item2 ...
 
 + **Source:** https://cseweb.ucsd.edu/~jmcauley/datasets.html
-+ **Download:** https://huggingface.co/datasets/reczoo/AmazonBeauty_m1/tree/main
++ **Download:** https://huggingface.co/datasets/reczoo/AmazonMovies_m1/tree/main
 + **RecZoo Datasets:** https://github.com/reczoo/Datasets
 
 + **Used by papers:** 
@@ -14,6 +14,6 @@ user_id item1 item2 ...
 + **Check the md5sum for data integrity:**
     ```bash
     $ md5sum *.txt
-    66fb687136d55b51742905ece189da31  test.txt
-    53cc9d39bc79f13c9bd3e75bd5121d1d  train.txt
+    c02e5f6579aa51950aa875c462a0204b  test.txt
+    3e9d30eacd30330a9feaa0fdb17760ba  train.txt
     ```
