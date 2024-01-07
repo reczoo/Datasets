@@ -1,7 +1,8 @@
 # AmazonElectronics_m1
 
-+ **Data format:**  
-user_id item1 item2 ...
++ **Data format:**
+
+  Each user corresponds to a list of interacted items: [[item1, item2], [item3, item4, item5], ...]
 
 + **Source:** https://cseweb.ucsd.edu/~jmcauley/datasets.html
 + **Download:** https://huggingface.co/datasets/reczoo/AmazonElectronics_m1/tree/main
