@@ -4,6 +4,8 @@
   
   The raw dataset is released by the Kuaishou Competition in the China MM 2018 conference, which aims to predict users' click probabilities for new micro-videos. In this dataset, there are multiple types of interactions between users and micro-videos, such as "click", "not click", "like", and "follow". Particularly, "not click" means the user did not click the micro-video after previewing its thumbnail. Note that the timestamp associated with each behaviour has been processed such that the absolute time is unknown, but the sequential order can be obtained according to the timestamp. For each micro-video, we can access its 2,048-d visual embedding of its thumbnail. In total, 10,000 users and their 3,239,534 interacted micro-videos are randomly selected. We follow the train-test data splitting from the [ALPINE](https://github.com/liyongqi67/ALPINE) work. In this setting, we filter infrequent categorical features with the threshold min_category_count=10. We further set the maximal length of user behavior sequence to 100.
 
+  Note that the 3239534 item ids in behavior data are not continous (0 ~ 3242314), thus `item_visual_emb_dim64.h5` has 3242315 rows, each of which corresponds to an item id and its visual embedding.
+
   The dataset statistics are summarized as follows:
 
   | Dataset Split  | Total | #Train | #Validation | #Test | 
